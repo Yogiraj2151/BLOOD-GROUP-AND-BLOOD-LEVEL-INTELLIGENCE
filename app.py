@@ -472,10 +472,7 @@ if st.session_state.page == "Admin Login":
             else:
                 st.error("Invalid Admin Login")
 
-    st.info(
-        "Demo Admin: admin / admin123"
-    )
-
+   
 
 # =========================================================
 # DONOR SIGNUP
