@@ -424,3 +424,185 @@ hr { height: 1px; border: 0; background: linear-gradient(90deg, transparent, var
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   ALL HEADINGS + SIDEBAR TEXT — UPPERCASE
+   ========================================== */
+
+/* Main headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase !important;
+    letter-spacing: 1.2px;
+    font-weight: 800 !important;
+}
+
+/* Streamlit title and header text */
+.stTitle,
+.stHeader,
+[data-testid="stHeader"] h1,
+[data-testid="stHeader"] h2,
+[data-testid="stHeader"] h3 {
+    text-transform: uppercase !important;
+    letter-spacing: 1.2px;
+}
+
+/* Sidebar: all text */
+[data-testid="stSidebar"],
+[data-testid="stSidebar"] * {
+    text-transform: uppercase !important;
+}
+
+/* Sidebar navigation buttons */
+[data-testid="stSidebar"] button,
+[data-testid="stSidebar"] a,
+[data-testid="stSidebar"] label {
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+}
+
+/* Sidebar section headings */
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4 {
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px;
+    font-weight: 800 !important;
+}
+
+/* Metric labels and card headings */
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] p {
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab"] {
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+}
+
+/* Buttons */
+.stButton button,
+.stDownloadButton button,
+.stFormSubmitButton button {
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px;
+    font-weight: 800 !important;
+}
+
+/* Expander headings */
+[data-testid="stExpander"] summary {
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+}
+
+/* Data table headings */
+[data-testid="stDataFrame"] th {
+    text-transform: uppercase !important;
+    font-weight: 800;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 0.6px;
+    }
+
+    [data-testid="stSidebar"] * {
+        letter-spacing: 0.4px;
+    }
+}
+
+
+
+
+/* ALL HEADINGS IN UPPERCASE */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase !important;
+    letter-spacing: 1.2px;
+    font-weight: 800 !important;
+}
+
+/* STREAMLIT PAGE HEADINGS */
+.stTitle,
+.stHeader,
+[data-testid="stHeader"] h1,
+[data-testid="stHeader"] h2,
+[data-testid="stHeader"] h3 {
+    text-transform: uppercase !important;
+}
+
+/* SIDEBAR HEADINGS AND TEXT */
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] button,
+[data-testid="stSidebar"] a {
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px;
+}
+
+/* DASHBOARD METRIC HEADINGS */
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] p {
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+}
+
+/* TABS */
+.stTabs [data-baseweb="tab"] {
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+}
+
+/* BUTTON TEXT */
+.stButton button,
+.stDownloadButton button,
+.stFormSubmitButton button {
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+}
+
+/* EXPANDER HEADINGS */
+[data-testid="stExpander"] summary {
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+}
+
+/* TABLE HEADINGS */
+[data-testid="stDataFrame"] th {
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+}
