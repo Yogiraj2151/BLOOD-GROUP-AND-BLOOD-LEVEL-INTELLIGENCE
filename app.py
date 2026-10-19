@@ -342,27 +342,27 @@ with st.sidebar:
         access = st.radio(
             "Select Portal",
             [
-                "👨‍💼 Admin Login",
-                "🩸 Donor Login",
-                "📝 Donor Signup",
-                "🏥 Hospital Login",
-                "🏥 Hospital Signup"
+                "👨‍💼 ADMIN LOGIN",
+                "🩸 DONOR LOGIN",
+                "📝 DONOR SIGNUP",
+                "🏥 HOSPITAL LOGIN",
+                "🏥 HOSPITAL SIGNUP"
             ]
         )
 
-        if access == "👨‍💼 Admin Login":
+        if access == "👨‍💼 ADMIN LOGIN":
             st.session_state.page = "Admin Login"
 
-        elif access == "🩸 Donor Login":
+        elif access == "🩸 DONOR LOGIN":
             st.session_state.page = "Donor Login"
 
-        elif access == "📝 Donor Signup":
+        elif access == "📝 DONOR SIGNUP":
             st.session_state.page = "Donor Signup"
 
-        elif access == "🏥 Hospital Login":
+        elif access == "🏥 HOSPITAL LOGIN":
             st.session_state.page = "Hospital Login"
 
-        elif access == "🏥 Hospital Signup":
+        elif access == "🏥 HOSPITAL SIGNUP":
             st.session_state.page = "Hospital Signup"
 
     else:
@@ -434,7 +434,7 @@ with st.sidebar:
 if st.session_state.page == "Admin Login":
 
     st.markdown(
-        '<div class="title">👨‍💼 Admin Login</div>',
+        '<div class="title">👨‍💼 ADMIN  LOGIN</div>',
         unsafe_allow_html=True
     )
 
@@ -481,7 +481,7 @@ if st.session_state.page == "Admin Login":
 elif st.session_state.page == "Donor Signup":
 
     st.markdown(
-        '<div class="title">🩸 Donor Signup</div>',
+        '<div class="title">🩸 DONOR  SIGNUP</div>',
         unsafe_allow_html=True
     )
 
@@ -617,7 +617,7 @@ elif st.session_state.page == "Donor Signup":
 elif st.session_state.page == "Donor Login":
 
     st.markdown(
-        '<div class="title">🩸 Donor Login</div>',
+        '<div class="title">🩸 DONOR LOGIN</div>',
         unsafe_allow_html=True
     )
 
@@ -668,7 +668,7 @@ elif st.session_state.page == "Donor Login":
 elif st.session_state.page == "Hospital Signup":
 
     st.markdown(
-        '<div class="title">🏥 Hospital Signup</div>',
+        '<div class="title">🏥 HOSPITAL   SIGNUP</div>',
         unsafe_allow_html=True
     )
 
@@ -771,7 +771,7 @@ elif st.session_state.page == "Hospital Signup":
 elif st.session_state.page == "Hospital Login":
 
     st.markdown(
-        '<div class="title">🏥 Hospital Login</div>',
+        '<div class="title">🏥 HOSPITAL     LOGIN</div>',
         unsafe_allow_html=True
     )
 
